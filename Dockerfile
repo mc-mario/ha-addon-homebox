@@ -1,0 +1,5 @@
+FROM ghcr.io/hay-kot/homebox:v0.10.1
+
+ENV HBOX_LOG_LEVEL=info
+ENV HBOX_LOG_FORMAT=text
+ENV HBOX_WEB_MAX_UPLOAD_SIZE=10
